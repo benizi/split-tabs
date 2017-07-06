@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Split Tabs",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "history"
+  ],
+  "browser_action": {
+    "default_title": "Split this and tabs to the right to a new window"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      }
+    }
+  }
+}
