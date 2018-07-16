@@ -12,7 +12,7 @@
     "history"
   ],
   "browser_action": {
-    "default_title": "Split this and tabs to the right to a new window"
+    "default_title": "Split this and tabs to the right to a new window (Ctrl-Shift-X)"
   },
   "commands": {
     "_execute_browser_action": {
